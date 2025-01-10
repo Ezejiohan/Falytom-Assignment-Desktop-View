@@ -26,7 +26,7 @@ header {
 
 .logo {
     font-size: 24px;
-    color: orange;
+    color: #dd5b05;
     font-weight: bold;
 }
 
@@ -52,13 +52,17 @@ nav ul li a {
 
 .search-bar input {
     padding: 5px;
-    border: none;
     outline: none;
     border-radius: 5px;
+    background-color: black;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom-color: #dd5b05;
+    border-color: #dd5b05;
 }
 
 .search-bar button {
-    background-color: orange;
+    background-color:#dd5b05;
     color: #fff;
     border: none;
     padding: 5px 10px;
@@ -76,7 +80,15 @@ main {
 
 .content h1 {
     font-size: 48px;
-    color: orange;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.content .highlight {
+    color: #dd5b05;
 }
 
 .content p {
@@ -86,7 +98,7 @@ main {
 
 .join-btn {
     padding: 10px 20px;
-    background-color: orange;
+    background-color: #dd5b05;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -103,15 +115,20 @@ main {
 
 .login-box h2 {
     margin-bottom: 20px;
-    color: orange;
+    color: #dd5b05;
     text-align: center;
 }
 
 .login-box form input {
     width: 100%;
     padding: 10px;
-    margin: 10px 0;
-    border: none;
+    margin-bottom: 20px;
+    border-top: 0px;
+    background-color: black;
+    border-bottom-color: #dd5b05;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
     border-radius: 5px;
     outline: none;
 }
@@ -119,7 +136,7 @@ main {
 .login-btn {
     width: 100%;
     padding: 10px;
-    background-color: orange;
+    background-color:#dd5b05;
     border: none;
     color: #fff;
     border-radius: 5px;
@@ -131,7 +148,7 @@ main {
 }
 
 .login-box a {
-    color: orange;
+    color: #dd5b05;
     text-decoration: none;
 }
 
@@ -147,5 +164,5 @@ main {
 }
 
 .social-login .icons a:hover {
-    color: orange;
+    color: #dd5b05;
 }
